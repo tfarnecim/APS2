@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(254, 161, 20);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>590</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {	
+	color: rgb(255, 255, 255);
+	background-color: rgb(176, 176, 176);
+	border: 2px solid rgb(166, 166, 166); 
+	border-radius: 25px;
+}
+
+QPushButton:hover {
+	background-color: rgb(166, 166, 166);
+	border: 2px solid rgb(138, 138, 138); 
+}
+
+QPushButton:pressed {
+	background-color: rgb(250, 230, 0);
+	border: 2px solid rgb(255, 165, 24); 
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>460</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(155, 194, 231);
+	border-radius: 13px;
+	padding: 10px;
+}
+QLineEdit:hover{
+	border: 2px solid rgb(255, 207, 0);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(255, 165, 0);
+	color: rgb(0, 0, 0);
+}
+</string>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+    <property name="placeholderText">
+     <string>CPF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>370</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>LOGIN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>590</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {	
+	color: rgb(255, 255, 255);
+	background-color: rgb(176, 176, 176);
+	border: 2px solid rgb(166, 166, 166); 
+	border-radius: 25px;
+}
+
+QPushButton:hover {
+	background-color: rgb(166, 166, 166);
+	border: 2px solid rgb(138, 138, 138); 
+}
+
+QPushButton:pressed {
+	background-color: rgb(250, 230, 0);
+	border: 2px solid rgb(255, 165, 24); 
+}</string>
+    </property>
+    <property name="text">
+     <string>Entrar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>520</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(155, 194, 231);
+	border-radius: 13px;
+	padding: 10px;
+}
+QLineEdit:hover{
+	border: 2px solid rgb(255, 207, 0);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(255, 165, 0);
+	color: rgb(0, 0, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Senha</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>231</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Astronalta Notebook1.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
