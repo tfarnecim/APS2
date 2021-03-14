@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Imagem">
+    <file>astronalta.png</file>
+  </qresource>
+</RCC>
